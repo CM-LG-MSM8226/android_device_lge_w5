@@ -7,8 +7,8 @@ TARGET_SCREEN_HEIGHT := 800
 
 # Release name
 PRODUCT_RELEASE_NAME := LG L70
-PRODUCT_NAME := cm_w5
 PRODUCT_MANUFACTURER := lge
+PRODUCT_NAME := lineage_w5
 PRODUCT_MODEL := w5
 
 $(call inherit-product, device/lge/w5/full_w5.mk)
