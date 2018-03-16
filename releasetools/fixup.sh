@@ -7,6 +7,9 @@ case $model in
 	rm /system/etc/permissions/android.hardware.nfc.xml
 	rm /system/etc/permissions/android.hardware.nfc.hce.xml
 	rm /system/lib/hw/nfc_nci.w5.so
+	rm /system/vendor/bin/hw/android.hardware.nfc@1.0-service
+	rm /system/vendor/etc/init/android.hardware.nfc@1.0-service.rc
+	rm /system/vendor/lib/hw/android.hardware.nfc@1.0-impl.so
 	rm -rf /system/app/NfcNci
 	cat /system/usr/keylayout/Generic-D320.kl > /system/usr/keylayout/Generic.kl
           ;;
@@ -17,6 +20,9 @@ case $model in
 	rm /system/etc/permissions/android.hardware.nfc.xml
 	rm /system/etc/permissions/android.hardware.nfc.hce.xml
 	rm /system/lib/hw/nfc_nci.w5.so
+	rm /system/vendor/bin/hw/android.hardware.nfc@1.0-service
+	rm /system/vendor/etc/init/android.hardware.nfc@1.0-service.rc
+	rm /system/vendor/lib/hw/android.hardware.nfc@1.0-impl.so
 	rm -rf /system/app/NfcNci
 	cat /system/usr/keylayout/Generic-D325.kl > /system/usr/keylayout/Generic.kl
           ;; 
@@ -24,6 +30,9 @@ case $model in
 	rm /system/etc/permissions/android.hardware.nfc.xml
 	rm /system/etc/permissions/android.hardware.nfc.hce.xml
 	rm /system/lib/hw/nfc_nci.w5.so
+	rm /system/vendor/bin/hw/android.hardware.nfc@1.0-service
+	rm /system/vendor/etc/init/android.hardware.nfc@1.0-service.rc
+	rm /system/vendor/lib/hw/android.hardware.nfc@1.0-impl.so
 	rm -rf /system/app/NfcNci
 	cat /system/usr/keylayout/Generic-D325.kl > /system/usr/keylayout/Generic.kl
           ;;
@@ -31,6 +40,9 @@ case $model in
 	rm /system/etc/permissions/android.hardware.nfc.xml
 	rm /system/etc/permissions/android.hardware.nfc.hce.xml
 	rm /system/lib/hw/nfc_nci.w5.so
+	rm /system/vendor/bin/hw/android.hardware.nfc@1.0-service
+	rm /system/vendor/etc/init/android.hardware.nfc@1.0-service.rc
+	rm /system/vendor/lib/hw/android.hardware.nfc@1.0-impl.so
 	rm -rf /system/app/NfcNci
 	cat /system/usr/keylayout/Generic-D320.kl > /system/usr/keylayout/Generic.kl
 	;;
@@ -38,6 +50,9 @@ case $model in
 	rm /system/etc/permissions/android.hardware.nfc.xml
 	rm /system/etc/permissions/android.hardware.nfc.hce.xml
 	rm /system/lib/hw/nfc_nci.w5.so
+	rm /system/vendor/bin/hw/android.hardware.nfc@1.0-service
+	rm /system/vendor/etc/init/android.hardware.nfc@1.0-service.rc
+	rm /system/vendor/lib/hw/android.hardware.nfc@1.0-impl.so
 	rm -rf /system/app/NfcNci
 	cat /system/usr/keylayout/Generic-D325.kl > /system/usr/keylayout/Generic.kl
           ;;
@@ -45,6 +60,9 @@ case $model in
 	rm /system/etc/permissions/android.hardware.nfc.xml
 	rm /system/etc/permissions/android.hardware.nfc.hce.xml
 	rm /system/lib/hw/nfc_nci.w5.so
+	rm /system/vendor/bin/hw/android.hardware.nfc@1.0-service
+	rm /system/vendor/etc/init/android.hardware.nfc@1.0-service.rc
+	rm /system/vendor/lib/hw/android.hardware.nfc@1.0-impl.so
 	rm -rf /system/app/NfcNci
 	cat /system/usr/keylayout/Generic-D320.kl > /system/usr/keylayout/Generic.kl
           ;;
@@ -52,6 +70,9 @@ case $model in
         rm /system/etc/permissions/android.hardware.nfc.xml
         rm /system/etc/permissions/android.hardware.nfc.hce.xml
         rm /system/lib/hw/nfc_nci.w5.so
+	rm /system/vendor/bin/hw/android.hardware.nfc@1.0-service
+	rm /system/vendor/etc/init/android.hardware.nfc@1.0-service.rc
+	rm /system/vendor/lib/hw/android.hardware.nfc@1.0-impl.so
         rm -rf /system/app/NfcNci
         cat /system/usr/keylayout/Generic-D320.kl > /system/usr/keylayout/Generic.kl
           ;;
@@ -59,6 +80,9 @@ case $model in
 	rm /system/etc/permissions/android.hardware.nfc.xml
 	rm /system/etc/permissions/android.hardware.nfc.hce.xml
 	rm /system/lib/hw/nfc_nci.w5.so
+	rm /system/vendor/bin/hw/android.hardware.nfc@1.0-service
+	rm /system/vendor/etc/init/android.hardware.nfc@1.0-service.rc
+	rm /system/vendor/lib/hw/android.hardware.nfc@1.0-impl.so
 	rm -rf /system/app/NfcNci
 	cat /system/usr/keylayout/Generic-MS323.kl > /system/usr/keylayout/Generic.kl
 	rm -rf /system/vendor/firmware/keymaster/
@@ -68,6 +92,9 @@ case $model in
 	rm /system/etc/permissions/android.hardware.nfc.xml
 	rm /system/etc/permissions/android.hardware.nfc.hce.xml
 	rm /system/lib/hw/nfc_nci.w5.so
+	rm /system/vendor/bin/hw/android.hardware.nfc@1.0-service
+	rm /system/vendor/etc/init/android.hardware.nfc@1.0-service.rc
+	rm /system/vendor/lib/hw/android.hardware.nfc@1.0-impl.so
 	rm -rf /system/app/NfcNci
           ;;
 esac
