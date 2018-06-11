@@ -95,8 +95,6 @@ void vendor_load_properties()
                 property_override("ro.product.device", "w5");
                 property_override("ro.product.model", "LG-D320");
         }
-        property_override("ro.build.description", "cm_w5-userdebug 7.1 NDE63X cf84cd3c64 test-keys");
-        property_override("ro.build.fingerprint", "lge/cm_w5/w5:7.1/NDE63X/cf84cd3c64:userdebug/test-keys");
         property_set("persist.radio.multisim.config", "");
         property_set("persist.multisim.config", "");
         property_set("telephony.lteOnCdmaDevice", "0");
@@ -107,8 +105,6 @@ void vendor_load_properties()
                 property_override("ro.product.device", "w5ds");
                 property_set("ro.nfc.port", "I2C");
         } 
-        property_override("ro.build.description", "cm_w5ds-userdebug 7.1 NDE63X cf84cd3c64 test-keys");
-        property_override("ro.build.fingerprint", "lge/cm_w5ds/w5ds:7.1/NDE63X/cf84cd3c64:userdebug/test-keys");
         property_set("persist.multisim.config", "dsds");
         property_set("persist.radio.multisim.config", "dsds");
         property_set("persist.radio.dont_use_dsd", "true");
@@ -117,8 +113,6 @@ void vendor_load_properties()
         
         property_override("ro.product.model", "LG-MS323");
         property_override("ro.product.device", "w5");
-        property_override("ro.build.description", "cm_w5-userdebug 7.1 NDE63X cf84cd3c64 test-keys");
-        property_override("ro.build.fingerprint", "lge/cm_w5/w5:7.1/NDE63X/cf84cd3c64:userdebug/test-keys");
         property_set("persist.radio.multisim.config", "");
         property_set("persist.multisim.config", "");
         property_set("telephony.lteOnCdmaDevice", "0");
